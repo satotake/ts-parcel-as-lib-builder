@@ -1,0 +1,15 @@
+{
+  "name": "ts-parcel-as-lib-builder",
+  "version": "0.0.0",
+  "description": "Example project: Parcel as js Library builder",
+  "main": "src/index.ts",
+  "author": "satotake",
+  "license": "MIT",
+  "dependencies": {
+    "parcel-bundler": "^1.11.0",
+    "typescript": "^3.2.4"
+  },
+  "scripts": {
+      "build": "parcel build src/index.ts"
+  }
+}
